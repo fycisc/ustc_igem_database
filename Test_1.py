@@ -13,10 +13,11 @@ class Operon(Document):
     Numberofgenes_contained = IntField()
     Name_gene_contained = ListField(StringField(max_length=20))
     Evidence = StringField()
+'''
 
 class Node(DynamicDocument):
     pass
-'''
+
 
 def dataprocess(pattern, line, tag):
     '''split a line into a dict
@@ -34,12 +35,9 @@ def dataprocess(pattern, line, tag):
 
 def save_to_database(dic):
     node = Node()
-    {% for key in  %}
-    node.{{key}} = dic[key]
-    {% endfor %}
-
     for key in dic.keys():
-        node.{{key}} = dic[key]
+        exec('node.'+key+'=dic['+key+']')
+        #exe  node.key = dic[key]
     node.save()
     print "saved successfully!"
 
