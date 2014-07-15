@@ -36,7 +36,7 @@ def dataprocess(pattern, line, tag):
 def save_to_database(dic):
     node = Node()
     for key in dic.keys():
-        exec('node.'+key+'=dic['+key+']')
+        exec('node.%s = dic[%s]'%(key,key))
         #exe  node.key = dic[key]
     node.save()
     print "saved successfully!"
@@ -49,7 +49,7 @@ def save_to_database(dic):
 
 def main():
     connect('igemdata')
-    basepath = '/Users/feiyicheng/Documents/igem/数据库/ustc_igem_database/Database/Node/csv'
+    basepath = '/Users/feiyicheng/Documents/igem/igem_database/ustc_igem_database/Database/Node/csv'
 
     #save the paths of .cvs files
     paths = []
@@ -61,9 +61,9 @@ def main():
     for path in paths:
         fp = open(path)
         #one file
-        if fp:
+        if fp and not re.match(r'DS_Store$', path):
             line = fp.readline()
-            if re.compile(r'Gene_sequence.csv', path):
+            if re.match(r'Gene_sequence\.csv', path):
                 pattern = line.split(',')
                 tag = 1
             else:
@@ -74,10 +74,6 @@ def main():
                 line = fp.readline()
                 dic = dataprocess(pattern, line, tag)
                 save_to_database(dic)
-
-
-
-
 
 
 if __name__ == '__main__':
