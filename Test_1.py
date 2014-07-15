@@ -17,6 +17,7 @@ class Operon(Document):
 
 
 
+
 def dataprocess(pattern, line, repattern):
     '''split a line into a dict
         pattern is a list
