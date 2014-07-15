@@ -1,0 +1,2982 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>薛 岳川</Author>
+  <LastAuthor>薛 岳川</LastAuthor>
+  <Created>2014-07-08T03:30:24Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13720</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Swiss" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="246" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Transcription Factor (TF) identifier assigned by RegulonDB</Data></Cell>
+    <Cell><Data ss:Type="String">TF name</Data></Cell>
+    <Cell><Data ss:Type="String">Gene coding for the TF</Data></Cell>
+    <Cell><Data ss:Type="String">Effector Name</Data></Cell>
+    <Cell><Data ss:Type="String">Effector Type</Data></Cell>
+    <Cell><Data ss:Type="String">TF Conformation</Data></Cell>
+    <Cell><Data ss:Type="String">TF conformation type (Active, Inactive)</Data></Cell>
+    <Cell><Data ss:Type="String">Interaction type (covalente, allosteric)</Data></Cell>
+    <Cell><Data ss:Type="String">Functional Conformation (Apo, Holo)</Data></Cell>
+    <Cell><Data ss:Type="String">Evidence that supports the TF- Conformation [Evidence name|Evidence type: S = Strong, W = Weak| Evidence code]</Data></Cell>
+    <Cell><Data ss:Type="String">PMID list</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015994</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR</Data></Cell>
+    <Cell><Data ss:Type="String">acrR</Data></Cell>
+    <Cell><Data ss:Type="String">Proflavin</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR-Proflavin</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17644067, 17950313</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015994</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR</Data></Cell>
+    <Cell><Data ss:Type="String">acrR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AcrR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17644067, 17950313</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015994</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR</Data></Cell>
+    <Cell><Data ss:Type="String">acrR</Data></Cell>
+    <Cell><Data ss:Type="String">Ethidium</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR-Ethidium</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17644067, 17950313</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015994</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR</Data></Cell>
+    <Cell><Data ss:Type="String">acrR</Data></Cell>
+    <Cell><Data ss:Type="String">R6G</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AcrR-R6G</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17644067, 17950313</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012595</Data></Cell>
+    <Cell><Data ss:Type="String">Ada</Data></Cell>
+    <Cell><Data ss:Type="String">ada</Data></Cell>
+    <Cell><Data ss:Type="String">Methyl</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">Ada-Methylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">16452614, 8720133</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012595</Data></Cell>
+    <Cell><Data ss:Type="String">Ada</Data></Cell>
+    <Cell><Data ss:Type="String">ada</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Ada</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay]</Data></Cell>
+    <Cell><Data ss:Type="Number">7937881</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120030264</Data></Cell>
+    <Cell><Data ss:Type="String">AlaS</Data></Cell>
+    <Cell><Data ss:Type="String">alaS</Data></Cell>
+    <Cell><Data ss:Type="String">L-alanine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">AlaS-L-alanine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">6264314</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120030264</Data></Cell>
+    <Cell><Data ss:Type="String">AlaS</Data></Cell>
+    <Cell><Data ss:Type="String">alaS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AlaS</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">6264314</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015630</Data></Cell>
+    <Cell><Data ss:Type="String">AllR</Data></Cell>
+    <Cell><Data ss:Type="String">allR</Data></Cell>
+    <Cell><Data ss:Type="String">Glyoxylate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AllR-Glyoxylate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">12460564</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015630</Data></Cell>
+    <Cell><Data ss:Type="String">AllR</Data></Cell>
+    <Cell><Data ss:Type="String">allR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AllR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">12460564</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015636</Data></Cell>
+    <Cell><Data ss:Type="String">AllS</Data></Cell>
+    <Cell><Data ss:Type="String">allS</Data></Cell>
+    <Cell><Data ss:Type="String">allantoin</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">AllS-allantoin</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">12460564</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015636</Data></Cell>
+    <Cell><Data ss:Type="String">AllS</Data></Cell>
+    <Cell><Data ss:Type="String">allS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AllS</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">12460564</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011959</Data></Cell>
+    <Cell><Data ss:Type="String">AlsR</Data></Cell>
+    <Cell><Data ss:Type="String">rpiR</Data></Cell>
+    <Cell><Data ss:Type="String">D-allose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AlsR-D-allose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">10559180, 9401019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011959</Data></Cell>
+    <Cell><Data ss:Type="String">AlsR</Data></Cell>
+    <Cell><Data ss:Type="String">rpiR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AlsR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">10559180, 9401019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012316</Data></Cell>
+    <Cell><Data ss:Type="String">AraC</Data></Cell>
+    <Cell><Data ss:Type="String">araC</Data></Cell>
+    <Cell><Data ss:Type="String">L-arabinose</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">AraC-L-arabinose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10995226, 12683999, 1560456, 17173282, 19422057, 2962192, 3041410, 7768852, 8516313, 9103202, 9600836</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012316</Data></Cell>
+    <Cell><Data ss:Type="String">AraC</Data></Cell>
+    <Cell><Data ss:Type="String">araC</Data></Cell>
+    <Cell><Data ss:Type="String">D-fucose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AraC-D-fucose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">12683999, 17173282</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012316</Data></Cell>
+    <Cell><Data ss:Type="String">AraC</Data></Cell>
+    <Cell><Data ss:Type="String">araC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AraC</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10995226, 12683999, 1560456, 17173282, 19422057, 2962192, 3041410, 7768852, 8516313, 9103202, 9600836</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011345</Data></Cell>
+    <Cell><Data ss:Type="String">ArcA</Data></Cell>
+    <Cell><Data ss:Type="String">arcA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ArcA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10851007, 1512197, 15522865, 9286997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011345</Data></Cell>
+    <Cell><Data ss:Type="String">ArcA</Data></Cell>
+    <Cell><Data ss:Type="String">arcA</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ArcA-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10851007, 1512197, 15522865, 9286997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011202</Data></Cell>
+    <Cell><Data ss:Type="String">ArgP</Data></Cell>
+    <Cell><Data ss:Type="String">argP</Data></Cell>
+    <Cell><Data ss:Type="String">Lysine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">ArgP-Lysine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17504942, 18502871</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011202</Data></Cell>
+    <Cell><Data ss:Type="String">ArgP</Data></Cell>
+    <Cell><Data ss:Type="String">argP</Data></Cell>
+    <Cell><Data ss:Type="String">L-arginine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ArgP-L-arginine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">17504942</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011202</Data></Cell>
+    <Cell><Data ss:Type="String">ArgP</Data></Cell>
+    <Cell><Data ss:Type="String">argP</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ArgP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18502871</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011670</Data></Cell>
+    <Cell><Data ss:Type="String">ArgR</Data></Cell>
+    <Cell><Data ss:Type="String">argR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ArgR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11580241, 17074904, 3116542</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011670</Data></Cell>
+    <Cell><Data ss:Type="String">ArgR</Data></Cell>
+    <Cell><Data ss:Type="String">argR</Data></Cell>
+    <Cell><Data ss:Type="String">L-arginine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ArgR-L-arginine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11580241, 17074904, 3116542</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120030724</Data></Cell>
+    <Cell><Data ss:Type="String">ArsR</Data></Cell>
+    <Cell><Data ss:Type="String">arsR</Data></Cell>
+    <Cell><Data ss:Type="String">Antimonite</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">ArsR-antimonite</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">8621591</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120030724</Data></Cell>
+    <Cell><Data ss:Type="String">ArsR</Data></Cell>
+    <Cell><Data ss:Type="String">arsR</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenite</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">ArsR-arsenite</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">8621591</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120030724</Data></Cell>
+    <Cell><Data ss:Type="String">ArsR</Data></Cell>
+    <Cell><Data ss:Type="String">arsR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ArsR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">8621591</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013010</Data></Cell>
+    <Cell><Data ss:Type="String">AsnC</Data></Cell>
+    <Cell><Data ss:Type="String">asnC</Data></Cell>
+    <Cell><Data ss:Type="String">L-asparagine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">AsnC-L-asparagine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">16528101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013010</Data></Cell>
+    <Cell><Data ss:Type="String">AsnC</Data></Cell>
+    <Cell><Data ss:Type="String">asnC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AsnC</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">16528101</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013014</Data></Cell>
+    <Cell><Data ss:Type="String">AtoC</Data></Cell>
+    <Cell><Data ss:Type="String">atoC</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">AtoC-phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="String">16153782, 17537579, 18534200, 21115262</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013014</Data></Cell>
+    <Cell><Data ss:Type="String">AtoC</Data></Cell>
+    <Cell><Data ss:Type="String">atoC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AtoC</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="String">16153782, 17537579, 18534200, 21115262</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015687</Data></Cell>
+    <Cell><Data ss:Type="String">BaeR</Data></Cell>
+    <Cell><Data ss:Type="String">baeR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">BaeR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013017</Data></Cell>
+    <Cell><Data ss:Type="String">BetI</Data></Cell>
+    <Cell><Data ss:Type="String">betI</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BetI</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">8626295</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013017</Data></Cell>
+    <Cell><Data ss:Type="String">BetI</Data></Cell>
+    <Cell><Data ss:Type="String">betI</Data></Cell>
+    <Cell><Data ss:Type="String">Choline</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">BetI-choline</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">8626295</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012646</Data></Cell>
+    <Cell><Data ss:Type="String">BirA</Data></Cell>
+    <Cell><Data ss:Type="String">birA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BirA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">11353844, 1409631</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012646</Data></Cell>
+    <Cell><Data ss:Type="String">BirA</Data></Cell>
+    <Cell><Data ss:Type="String">birA</Data></Cell>
+    <Cell><Data ss:Type="String">bio-5'-AMP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">BirA-bio-5'-AMP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">11353844, 1409631</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011235</Data></Cell>
+    <Cell><Data ss:Type="String">CRP</Data></Cell>
+    <Cell><Data ss:Type="String">crp</Data></Cell>
+    <Cell><Data ss:Type="String">cAMP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CRP-cAMP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">16906160, 19359484</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011235</Data></Cell>
+    <Cell><Data ss:Type="String">CRP</Data></Cell>
+    <Cell><Data ss:Type="String">crp</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CRP</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">16906160, 19359484</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013750</Data></Cell>
+    <Cell><Data ss:Type="String">Cbl</Data></Cell>
+    <Cell><Data ss:Type="String">cbl</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Cbl</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11918818, 17010379</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013750</Data></Cell>
+    <Cell><Data ss:Type="String">Cbl</Data></Cell>
+    <Cell><Data ss:Type="String">cbl</Data></Cell>
+    <Cell><Data ss:Type="String">Thiosulphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Cbl-Thiosulphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">17010379</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013750</Data></Cell>
+    <Cell><Data ss:Type="String">Cbl</Data></Cell>
+    <Cell><Data ss:Type="String">cbl</Data></Cell>
+    <Cell><Data ss:Type="String">Adenosine 5' phosphosulphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Cbl-adenosine 5' phosphosulphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11918818, 17010379</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012036</Data></Cell>
+    <Cell><Data ss:Type="String">ChbR</Data></Cell>
+    <Cell><Data ss:Type="String">chbR</Data></Cell>
+    <Cell><Data ss:Type="String">Monoacetylchitobiose-6P</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ChbR-Monoacetylchitobiose-6P</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">22797760</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011210</Data></Cell>
+    <Cell><Data ss:Type="String">CpxR</Data></Cell>
+    <Cell><Data ss:Type="String">cpxR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CpxR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 16861804, 9159398</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011210</Data></Cell>
+    <Cell><Data ss:Type="String">CpxR</Data></Cell>
+    <Cell><Data ss:Type="String">cpxR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CpxR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 16861804, 9159398</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013112</Data></Cell>
+    <Cell><Data ss:Type="String">Cra</Data></Cell>
+    <Cell><Data ss:Type="String">cra</Data></Cell>
+    <Cell><Data ss:Type="String">Fructose-1-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Cra-Fructose-1-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8230205, 8577250, 9084760</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013112</Data></Cell>
+    <Cell><Data ss:Type="String">Cra</Data></Cell>
+    <Cell><Data ss:Type="String">cra</Data></Cell>
+    <Cell><Data ss:Type="String">Fructose-1,6-diphosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Cra-Fructose-1,6-diphosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8230205, 8577250, 9084760</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013112</Data></Cell>
+    <Cell><Data ss:Type="String">Cra</Data></Cell>
+    <Cell><Data ss:Type="String">cra</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Cra</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8230205, 8577250, 9084760</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120035002</Data></Cell>
+    <Cell><Data ss:Type="String">CreB</Data></Cell>
+    <Cell><Data ss:Type="String">creB</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CreB-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120035002</Data></Cell>
+    <Cell><Data ss:Type="String">CreB</Data></Cell>
+    <Cell><Data ss:Type="String">creB</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CreB</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034780</Data></Cell>
+    <Cell><Data ss:Type="String">CueR</Data></Cell>
+    <Cell><Data ss:Type="String">cueR</Data></Cell>
+    <Cell><Data ss:Type="String">Au</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CuerR-Au</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034780</Data></Cell>
+    <Cell><Data ss:Type="String">CueR</Data></Cell>
+    <Cell><Data ss:Type="String">cueR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CueR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034780</Data></Cell>
+    <Cell><Data ss:Type="String">CueR</Data></Cell>
+    <Cell><Data ss:Type="String">cueR</Data></Cell>
+    <Cell><Data ss:Type="String">Cu&lt;sup&gt;+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CueR-Cu&lt;sup&gt;+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034780</Data></Cell>
+    <Cell><Data ss:Type="String">CueR</Data></Cell>
+    <Cell><Data ss:Type="String">cueR</Data></Cell>
+    <Cell><Data ss:Type="String">Ag</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CueR-Ag</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011941</Data></Cell>
+    <Cell><Data ss:Type="String">CusR</Data></Cell>
+    <Cell><Data ss:Type="String">cusR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CusR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 15773991</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011941</Data></Cell>
+    <Cell><Data ss:Type="String">CusR</Data></Cell>
+    <Cell><Data ss:Type="String">cusR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CusR-P&lt;SUP&gt;asp&lt;/SUP&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 15773991</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013065</Data></Cell>
+    <Cell><Data ss:Type="String">CynR</Data></Cell>
+    <Cell><Data ss:Type="String">cynR</Data></Cell>
+    <Cell><Data ss:Type="String">Cyanate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CynR-Cyanate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7961413</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011312</Data></Cell>
+    <Cell><Data ss:Type="String">CysB</Data></Cell>
+    <Cell><Data ss:Type="String">cysB</Data></Cell>
+    <Cell><Data ss:Type="String">Thiosulphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">CysB-Thiosulfate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1909324</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011312</Data></Cell>
+    <Cell><Data ss:Type="String">CysB</Data></Cell>
+    <Cell><Data ss:Type="String">cysB</Data></Cell>
+    <Cell><Data ss:Type="String">Sulphide</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">CysB-Sulphide</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis]</Data></Cell>
+    <Cell><Data ss:Type="Number">2105304</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011312</Data></Cell>
+    <Cell><Data ss:Type="String">CysB</Data></Cell>
+    <Cell><Data ss:Type="String">cysB</Data></Cell>
+    <Cell><Data ss:Type="String">N-acetyl-L-serine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CysB-N-acetyl-L-serine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11038360, 1909324, 2105304</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011312</Data></Cell>
+    <Cell><Data ss:Type="String">CysB</Data></Cell>
+    <Cell><Data ss:Type="String">cysB</Data></Cell>
+    <Cell><Data ss:Type="String">O-acetyl-L-serine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">CysB-O-acetyl-L-serine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis]</Data></Cell>
+    <Cell><Data ss:Type="Number">2105304</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012407</Data></Cell>
+    <Cell><Data ss:Type="String">CytR</Data></Cell>
+    <Cell><Data ss:Type="String">cytR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">CytR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1655726</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012407</Data></Cell>
+    <Cell><Data ss:Type="String">CytR</Data></Cell>
+    <Cell><Data ss:Type="String">cytR</Data></Cell>
+    <Cell><Data ss:Type="String">Cytidine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">CytR-Cytidine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1655726</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034977</Data></Cell>
+    <Cell><Data ss:Type="String">DcuR</Data></Cell>
+    <Cell><Data ss:Type="String">dcuR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DcuR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">14996819, 15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034977</Data></Cell>
+    <Cell><Data ss:Type="String">DcuR</Data></Cell>
+    <Cell><Data ss:Type="String">dcuR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">DcuR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">14996819, 15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012664</Data></Cell>
+    <Cell><Data ss:Type="String">DeoR</Data></Cell>
+    <Cell><Data ss:Type="String">deoR</Data></Cell>
+    <Cell><Data ss:Type="String">Deoxyribose-5-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">DeoR-Deoxyribose-5-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">2653814</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012664</Data></Cell>
+    <Cell><Data ss:Type="String">DeoR</Data></Cell>
+    <Cell><Data ss:Type="String">deoR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DeoR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">2653814</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015690</Data></Cell>
+    <Cell><Data ss:Type="String">DhaR</Data></Cell>
+    <Cell><Data ss:Type="String">dhaR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DhaR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15616579</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015690</Data></Cell>
+    <Cell><Data ss:Type="String">DhaR</Data></Cell>
+    <Cell><Data ss:Type="String">dhaR</Data></Cell>
+    <Cell><Data ss:Type="String">DhaK</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">DhaR-DhaK</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15616579</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011903</Data></Cell>
+    <Cell><Data ss:Type="String">DnaA</Data></Cell>
+    <Cell><Data ss:Type="String">dnaA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DnaA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9674428</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011903</Data></Cell>
+    <Cell><Data ss:Type="String">DnaA</Data></Cell>
+    <Cell><Data ss:Type="String">dnaA</Data></Cell>
+    <Cell><Data ss:Type="String">ATP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">DnaA-ATP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9674428</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034476</Data></Cell>
+    <Cell><Data ss:Type="String">DpiA</Data></Cell>
+    <Cell><Data ss:Type="String">dpiA</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">DpiA-P&lt;sup&gt;asp&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">9701802</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034476</Data></Cell>
+    <Cell><Data ss:Type="String">DpiA</Data></Cell>
+    <Cell><Data ss:Type="String">dpiA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DpiA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">9701802</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013081</Data></Cell>
+    <Cell><Data ss:Type="String">DsdC</Data></Cell>
+    <Cell><Data ss:Type="String">dsdC</Data></Cell>
+    <Cell><Data ss:Type="String">D-serine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">DsdC-D-serine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">6090429, 6296057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013081</Data></Cell>
+    <Cell><Data ss:Type="String">DsdC</Data></Cell>
+    <Cell><Data ss:Type="String">dsdC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">DsdC</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">6090429, 6296057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011575</Data></Cell>
+    <Cell><Data ss:Type="String">EvgA</Data></Cell>
+    <Cell><Data ss:Type="String">evgA</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">EvgA-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="Number">10923791</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011575</Data></Cell>
+    <Cell><Data ss:Type="String">EvgA</Data></Cell>
+    <Cell><Data ss:Type="String">evgA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">EvgA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[SM|S|Site mutation], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="Number">10923791</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011229</Data></Cell>
+    <Cell><Data ss:Type="String">FNR</Data></Cell>
+    <Cell><Data ss:Type="String">fnr</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; oxidized</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">FNR-[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; oxidized</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">14730984, 9177174</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011229</Data></Cell>
+    <Cell><Data ss:Type="String">FNR</Data></Cell>
+    <Cell><Data ss:Type="String">fnr</Data></Cell>
+    <Cell><Data ss:Type="String">[4Fe-4S]&lt;sup&gt;2+&lt;/sup&gt; reduced</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">FNR-[4Fe-4S]&lt;sup&gt;2+&lt;/sup&gt; reduced</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">15547274, 18055593, 19261852, 8497198, 9177174</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011824</Data></Cell>
+    <Cell><Data ss:Type="String">FadR</Data></Cell>
+    <Cell><Data ss:Type="String">fadR</Data></Cell>
+    <Cell><Data ss:Type="String">Acyl-CoA</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">FadR-acyl-CoA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1569108</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011824</Data></Cell>
+    <Cell><Data ss:Type="String">FadR</Data></Cell>
+    <Cell><Data ss:Type="String">fadR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">FadR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1569108</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011394</Data></Cell>
+    <Cell><Data ss:Type="String">FhlA</Data></Cell>
+    <Cell><Data ss:Type="String">fhlA</Data></Cell>
+    <Cell><Data ss:Type="String">Formate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">FhlA-Formate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10848985, 8981978</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011394</Data></Cell>
+    <Cell><Data ss:Type="String">FhlA</Data></Cell>
+    <Cell><Data ss:Type="String">fhlA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">FhlA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10848985, 8981978</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013118</Data></Cell>
+    <Cell><Data ss:Type="String">FucR</Data></Cell>
+    <Cell><Data ss:Type="String">fucR</Data></Cell>
+    <Cell><Data ss:Type="String">L-fuculose-1-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">FucR-L-fuculose-1-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">3005235</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013118</Data></Cell>
+    <Cell><Data ss:Type="String">FucR</Data></Cell>
+    <Cell><Data ss:Type="String">fucR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">FucR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">3005235</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033465</Data></Cell>
+    <Cell><Data ss:Type="String">Fur</Data></Cell>
+    <Cell><Data ss:Type="String">fur</Data></Cell>
+    <Cell><Data ss:Type="String">Fe&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Fur-Fe&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">12746439, 16690618, 1849822, 2823881</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033465</Data></Cell>
+    <Cell><Data ss:Type="String">Fur</Data></Cell>
+    <Cell><Data ss:Type="String">fur</Data></Cell>
+    <Cell><Data ss:Type="String">Mn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">Fur-Mn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">12746439, 16690618, 1849822, 2823881</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033465</Data></Cell>
+    <Cell><Data ss:Type="String">Fur</Data></Cell>
+    <Cell><Data ss:Type="String">fur</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Fur</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="String">12746439, 16690618, 1849822, 2823881</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012713</Data></Cell>
+    <Cell><Data ss:Type="String">GalR</Data></Cell>
+    <Cell><Data ss:Type="String">galR</Data></Cell>
+    <Cell><Data ss:Type="String">galactose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GalR-galactose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8416900, 8982002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012713</Data></Cell>
+    <Cell><Data ss:Type="String">GalR</Data></Cell>
+    <Cell><Data ss:Type="String">galR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GalR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8416900, 8982002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012704</Data></Cell>
+    <Cell><Data ss:Type="String">GalS</Data></Cell>
+    <Cell><Data ss:Type="String">galS</Data></Cell>
+    <Cell><Data ss:Type="String">galactose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GalS-galactose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8416900, 8619994, 8982002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012704</Data></Cell>
+    <Cell><Data ss:Type="String">GalS</Data></Cell>
+    <Cell><Data ss:Type="String">galS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GalS</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">8416900, 8619994, 8982002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012465</Data></Cell>
+    <Cell><Data ss:Type="String">GcvA</Data></Cell>
+    <Cell><Data ss:Type="String">gcvA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GcvA</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11495998, 12101307</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012465</Data></Cell>
+    <Cell><Data ss:Type="String">GcvA</Data></Cell>
+    <Cell><Data ss:Type="String">gcvA</Data></Cell>
+    <Cell><Data ss:Type="String">Purine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GcvA-Purine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11495998, 12101307</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012465</Data></Cell>
+    <Cell><Data ss:Type="String">GcvA</Data></Cell>
+    <Cell><Data ss:Type="String">gcvA</Data></Cell>
+    <Cell><Data ss:Type="String">Glycine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GcvA-Glycine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11495998, 12101307</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011437</Data></Cell>
+    <Cell><Data ss:Type="String">GlcC</Data></Cell>
+    <Cell><Data ss:Type="String">glcC</Data></Cell>
+    <Cell><Data ss:Type="String">Glycolate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">GlcC-Glycolate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9880556</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011437</Data></Cell>
+    <Cell><Data ss:Type="String">GlcC</Data></Cell>
+    <Cell><Data ss:Type="String">glcC</Data></Cell>
+    <Cell><Data ss:Type="String">Acetate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">GlcC-Acetate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9880556</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011437</Data></Cell>
+    <Cell><Data ss:Type="String">GlcC</Data></Cell>
+    <Cell><Data ss:Type="String">glcC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GlcC</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9880556</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012730</Data></Cell>
+    <Cell><Data ss:Type="String">GlpR</Data></Cell>
+    <Cell><Data ss:Type="String">glpR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GlpR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">3316209</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012730</Data></Cell>
+    <Cell><Data ss:Type="String">GlpR</Data></Cell>
+    <Cell><Data ss:Type="String">glpR</Data></Cell>
+    <Cell><Data ss:Type="String">Glycerol-3-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GlpR-glycerol-3-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">3316209</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125108627</Data></Cell>
+    <Cell><Data ss:Type="String">GlrR</Data></Cell>
+    <Cell><Data ss:Type="String">glrR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GlrR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">19843219</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125108627</Data></Cell>
+    <Cell><Data ss:Type="String">GlrR</Data></Cell>
+    <Cell><Data ss:Type="String">glrR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">GlrR-P&lt;sup&gt;asp56&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">19843219</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012096</Data></Cell>
+    <Cell><Data ss:Type="String">GntR</Data></Cell>
+    <Cell><Data ss:Type="String">gntR</Data></Cell>
+    <Cell><Data ss:Type="String">Gluconate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GntR-gluconate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">9135111</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012096</Data></Cell>
+    <Cell><Data ss:Type="String">GntR</Data></Cell>
+    <Cell><Data ss:Type="String">gntR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GntR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">9135111</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013144</Data></Cell>
+    <Cell><Data ss:Type="String">GutR</Data></Cell>
+    <Cell><Data ss:Type="String">srlR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">GutR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis]</Data></Cell>
+    <Cell><Data ss:Type="Number">3062173</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013144</Data></Cell>
+    <Cell><Data ss:Type="String">GutR</Data></Cell>
+    <Cell><Data ss:Type="String">srlR</Data></Cell>
+    <Cell><Data ss:Type="String">Glucitol</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">GutR-glucitol</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis]</Data></Cell>
+    <Cell><Data ss:Type="Number">3062173</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011897</Data></Cell>
+    <Cell><Data ss:Type="String">IclR</Data></Cell>
+    <Cell><Data ss:Type="String">iclR</Data></Cell>
+    <Cell><Data ss:Type="String">Pyruvate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">IclR-pyruvate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">17426033</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011897</Data></Cell>
+    <Cell><Data ss:Type="String">IclR</Data></Cell>
+    <Cell><Data ss:Type="String">iclR</Data></Cell>
+    <Cell><Data ss:Type="String">Glyoxylate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">IclR-glyoxylate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">17426033</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012101</Data></Cell>
+    <Cell><Data ss:Type="String">IdnR</Data></Cell>
+    <Cell><Data ss:Type="String">idnR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IdnR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]</Data></Cell>
+    <Cell><Data ss:Type="Number">14973046</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012101</Data></Cell>
+    <Cell><Data ss:Type="String">IdnR</Data></Cell>
+    <Cell><Data ss:Type="String">idnR</Data></Cell>
+    <Cell><Data ss:Type="String">5-ketogluconate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">IdnR-5-ketogluconate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]</Data></Cell>
+    <Cell><Data ss:Type="Number">14973046</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012101</Data></Cell>
+    <Cell><Data ss:Type="String">IdnR</Data></Cell>
+    <Cell><Data ss:Type="String">idnR</Data></Cell>
+    <Cell><Data ss:Type="String">Idonate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">IdnR-Idonate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]</Data></Cell>
+    <Cell><Data ss:Type="Number">14973046</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012965</Data></Cell>
+    <Cell><Data ss:Type="String">IlvY</Data></Cell>
+    <Cell><Data ss:Type="String">ilvY</Data></Cell>
+    <Cell><Data ss:Type="String">Alfa-acetohydroxybutirate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">IlvY-Alfa-acetohydroxybutirate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9556617</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012965</Data></Cell>
+    <Cell><Data ss:Type="String">IlvY</Data></Cell>
+    <Cell><Data ss:Type="String">ilvY</Data></Cell>
+    <Cell><Data ss:Type="String">2-acetolactate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">IlvY-2-acetolactate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9556617</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012965</Data></Cell>
+    <Cell><Data ss:Type="String">IlvY</Data></Cell>
+    <Cell><Data ss:Type="String">ilvY</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IlvY</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">9556617</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011429</Data></Cell>
+    <Cell><Data ss:Type="String">IscR</Data></Cell>
+    <Cell><Data ss:Type="String">iscR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IscR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">19361432</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011429</Data></Cell>
+    <Cell><Data ss:Type="String">IscR</Data></Cell>
+    <Cell><Data ss:Type="String">iscR</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S]&lt;sup&gt;1+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">IscR-[2Fe-2S]&lt;sup&gt;1+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11742080, 19361432</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048960</Data></Cell>
+    <Cell><Data ss:Type="String">KdpE</Data></Cell>
+    <Cell><Data ss:Type="String">kdpE</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">KdpE</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 19101563</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048960</Data></Cell>
+    <Cell><Data ss:Type="String">KdpE</Data></Cell>
+    <Cell><Data ss:Type="String">kdpE</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">KdpE-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 19101563</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012762</Data></Cell>
+    <Cell><Data ss:Type="String">LacI</Data></Cell>
+    <Cell><Data ss:Type="String">lacI</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">LacI</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">17543986</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012762</Data></Cell>
+    <Cell><Data ss:Type="String">LacI</Data></Cell>
+    <Cell><Data ss:Type="String">lacI</Data></Cell>
+    <Cell><Data ss:Type="String">Allolactose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">LacI-allolactose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">17543986</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013830</Data></Cell>
+    <Cell><Data ss:Type="String">LldR</Data></Cell>
+    <Cell><Data ss:Type="String">lldR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">LldR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18263722</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013830</Data></Cell>
+    <Cell><Data ss:Type="String">LldR</Data></Cell>
+    <Cell><Data ss:Type="String">lldR</Data></Cell>
+    <Cell><Data ss:Type="String">L-lactate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">LldR-L-lactate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18263722</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011383</Data></Cell>
+    <Cell><Data ss:Type="String">Lrp</Data></Cell>
+    <Cell><Data ss:Type="String">lrp</Data></Cell>
+    <Cell><Data ss:Type="String">Leucine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">Lrp-Leucine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">11575919</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015681</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR</Data></Cell>
+    <Cell><Data ss:Type="String">lsrR</Data></Cell>
+    <Cell><Data ss:Type="String">4,5-dihydroxy-2,3-pentanedione</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR-4,5-dihydroxy-2,3-pentanedione</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">17557827</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015681</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR</Data></Cell>
+    <Cell><Data ss:Type="String">lsrR</Data></Cell>
+    <Cell><Data ss:Type="String">4,5-dihydroxy-2,3-pentanedione</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">17274596, 17557827</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015681</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR</Data></Cell>
+    <Cell><Data ss:Type="String">lsrR</Data></Cell>
+    <Cell><Data ss:Type="String">4,5-dihydroxy-2,3-pentanedione-P</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">LsrR-4,5-dihydroxy-2,3-pentanedione-P</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">17274596</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">ADP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MalT-ADP-Maltotriose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">10559195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">Maltotriose</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MalT-Maltotriose-ATP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10559195, 10692154, 11867639, 15180985, 2180908, 2524384, 3298211</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">MalY</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MalT-MalY</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">10692154, 12003949</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">MalK</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MalT-MalK</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">12003949, 15180985, 15733913, 9822819</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">ATP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MalT-Maltotriose-ATP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10559195, 10692154, 11867639, 15180985, 2180908, 2524384, 3298211</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell><Data ss:Type="String">Aes</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MalT-Aes</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">11867639</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012218</Data></Cell>
+    <Cell><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">malT</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MalT</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10559195, 10692154, 11867639, 15180985, 15491603, 2180908, 3298211</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Sodium salicylate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Sodium salicylate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">10419969</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Salicylate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-salicylate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">7504664, 7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Plumbagin</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Plumbagin</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10419969, 7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Phenazine methosulfate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Phenazine methosulfate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Menadione</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Menadione</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10419969, 7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Benzoate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Benzoate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">2,4-dinitrophenol</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-2,4-dinitrophenol</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10419969, 7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10419969, 7504664, 7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013191</Data></Cell>
+    <Cell><Data ss:Type="String">MarR</Data></Cell>
+    <Cell><Data ss:Type="String">marR</Data></Cell>
+    <Cell><Data ss:Type="String">Paraquat</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MarR-Paraquat</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7768850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012347</Data></Cell>
+    <Cell><Data ss:Type="String">MelR</Data></Cell>
+    <Cell><Data ss:Type="String">melR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MelR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10760178, 18346968</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012347</Data></Cell>
+    <Cell><Data ss:Type="String">MelR</Data></Cell>
+    <Cell><Data ss:Type="String">melR</Data></Cell>
+    <Cell><Data ss:Type="String">Melibiose</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MelR-Melibiose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10760178, 18346968</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048948</Data></Cell>
+    <Cell><Data ss:Type="String">MetJ</Data></Cell>
+    <Cell><Data ss:Type="String">metJ</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MetJ</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">3090041, 7862523</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048948</Data></Cell>
+    <Cell><Data ss:Type="String">MetJ</Data></Cell>
+    <Cell><Data ss:Type="String">metJ</Data></Cell>
+    <Cell><Data ss:Type="String">S-adenosylmethionine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MetJ-S-adenosylmethionine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">3090041, 7862523</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012802</Data></Cell>
+    <Cell><Data ss:Type="String">MetR</Data></Cell>
+    <Cell><Data ss:Type="String">metR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MetR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1943695, 2205852</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012802</Data></Cell>
+    <Cell><Data ss:Type="String">MetR</Data></Cell>
+    <Cell><Data ss:Type="String">metR</Data></Cell>
+    <Cell><Data ss:Type="String">L-homocysteine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MetR-L-homocysteine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1943695, 2205852</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011482</Data></Cell>
+    <Cell><Data ss:Type="String">MhpR</Data></Cell>
+    <Cell><Data ss:Type="String">mhpR</Data></Cell>
+    <Cell><Data ss:Type="String">3-(2,3-dihydroxyphenyl)propionate [DHPP]</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MhpR-3-(2,3-dihydroxyphenyl)propionate [DHPP]</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">19520845</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011482</Data></Cell>
+    <Cell><Data ss:Type="String">MhpR</Data></Cell>
+    <Cell><Data ss:Type="String">mhpR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MhpR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">19520845</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011482</Data></Cell>
+    <Cell><Data ss:Type="String">MhpR</Data></Cell>
+    <Cell><Data ss:Type="String">mhpR</Data></Cell>
+    <Cell><Data ss:Type="String">3HPP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MhpR-3HPP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">19520845</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011240</Data></Cell>
+    <Cell><Data ss:Type="String">Mlc</Data></Cell>
+    <Cell><Data ss:Type="String">mlc</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mlc</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11032803, 11157755, 18319344</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011240</Data></Cell>
+    <Cell><Data ss:Type="String">Mlc</Data></Cell>
+    <Cell><Data ss:Type="String">mlc</Data></Cell>
+    <Cell><Data ss:Type="String">EIIGlc</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">Mlc-EIIGlC</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11032803, 11157755, 18319344</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034617</Data></Cell>
+    <Cell><Data ss:Type="String">MntR</Data></Cell>
+    <Cell><Data ss:Type="String">mntR</Data></Cell>
+    <Cell><Data ss:Type="String">Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">MntR-Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11466284, 19701940, 21908668</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034617</Data></Cell>
+    <Cell><Data ss:Type="String">MntR</Data></Cell>
+    <Cell><Data ss:Type="String">mntR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MntR-Mn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11466284, 19701940, 21908668</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034617</Data></Cell>
+    <Cell><Data ss:Type="String">MntR</Data></Cell>
+    <Cell><Data ss:Type="String">mntR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MntR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">11466284, 19701940, 21908668</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011220</Data></Cell>
+    <Cell><Data ss:Type="String">ModE</Data></Cell>
+    <Cell><Data ss:Type="String">modE</Data></Cell>
+    <Cell><Data ss:Type="String">MoO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ModE-MoO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10075916, 10446207, 11259434, 12581638, 9210473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011220</Data></Cell>
+    <Cell><Data ss:Type="String">ModE</Data></Cell>
+    <Cell><Data ss:Type="String">modE</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ModE</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10075916, 10446207, 11259434, 12581638, 9210473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011593</Data></Cell>
+    <Cell><Data ss:Type="String">MprA</Data></Cell>
+    <Cell><Data ss:Type="String">mprA</Data></Cell>
+    <Cell><Data ss:Type="String">2,4-dinitrophenol</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MprA-2,4-dinitrophenol</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10438794, 10991887, 7730261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011593</Data></Cell>
+    <Cell><Data ss:Type="String">MprA</Data></Cell>
+    <Cell><Data ss:Type="String">mprA</Data></Cell>
+    <Cell><Data ss:Type="String">Carbonyl cyanide p-(trifluoro-methoxy)phenylhydrazone</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MprA-Carbonyl cyanide p-(trifluoro-methoxy)phenylhydrazone</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10438794, 10991887, 7730261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011593</Data></Cell>
+    <Cell><Data ss:Type="String">MprA</Data></Cell>
+    <Cell><Data ss:Type="String">mprA</Data></Cell>
+    <Cell><Data ss:Type="String">Carbonyl cyanide m-chlorophenylhydrazone (CCCP)</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MprA-Carbonyl cyanide m-chlorophenylhydrazone (CCCP)</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10438794, 10991887, 7730261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011593</Data></Cell>
+    <Cell><Data ss:Type="String">MprA</Data></Cell>
+    <Cell><Data ss:Type="String">mprA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MprA</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10438794, 10991887, 7730261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048826</Data></Cell>
+    <Cell><Data ss:Type="String">MurR</Data></Cell>
+    <Cell><Data ss:Type="String">murR</Data></Cell>
+    <Cell><Data ss:Type="String">MurNac-6-P</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">MurR-MurNac-6-P</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18723630</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048826</Data></Cell>
+    <Cell><Data ss:Type="String">MurR</Data></Cell>
+    <Cell><Data ss:Type="String">murR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">MurR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18723630</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011908</Data></Cell>
+    <Cell><Data ss:Type="String">NagC</Data></Cell>
+    <Cell><Data ss:Type="String">nagC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NagC</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1766379</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011908</Data></Cell>
+    <Cell><Data ss:Type="String">NagC</Data></Cell>
+    <Cell><Data ss:Type="String">nagC</Data></Cell>
+    <Cell><Data ss:Type="String">N-acetyl-D-glucosamine-6-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">NagC-N-acetyl-D-glucosamine-6-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1766379</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012559</Data></Cell>
+    <Cell><Data ss:Type="String">NanR</Data></Cell>
+    <Cell><Data ss:Type="String">nanR</Data></Cell>
+    <Cell><Data ss:Type="String">N-acetylneuraminate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">NanR-N-acetylneuraminate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15534208</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012559</Data></Cell>
+    <Cell><Data ss:Type="String">NanR</Data></Cell>
+    <Cell><Data ss:Type="String">nanR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NanR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15534208</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011502</Data></Cell>
+    <Cell><Data ss:Type="String">NarL</Data></Cell>
+    <Cell><Data ss:Type="String">narL</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NarL</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 8780507, 9521685</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011502</Data></Cell>
+    <Cell><Data ss:Type="String">NarL</Data></Cell>
+    <Cell><Data ss:Type="String">narL</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NarL-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 8780507, 9521685</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011508</Data></Cell>
+    <Cell><Data ss:Type="String">NarP</Data></Cell>
+    <Cell><Data ss:Type="String">narP</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NarP</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011508</Data></Cell>
+    <Cell><Data ss:Type="String">NarP</Data></Cell>
+    <Cell><Data ss:Type="String">narP</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NarP-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011378</Data></Cell>
+    <Cell><Data ss:Type="String">NhaR</Data></Cell>
+    <Cell><Data ss:Type="String">nhaR</Data></Cell>
+    <Cell><Data ss:Type="String">Na&lt;SUP&gt;+&lt;/SUP&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NhaR-Na&lt;SUP&gt;+&lt;/SUP&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1316901, 9312050</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011378</Data></Cell>
+    <Cell><Data ss:Type="String">NhaR</Data></Cell>
+    <Cell><Data ss:Type="String">nhaR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NhaR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1316901, 9312050</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell><Data ss:Type="String">Cu&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NikR-Cu&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell><Data ss:Type="String">Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NikR-Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell><Data ss:Type="String">Ni&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">NikR-Ni&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell><Data ss:Type="String">Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NikR-Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120023539</Data></Cell>
+    <Cell><Data ss:Type="String">NikR</Data></Cell>
+    <Cell><Data ss:Type="String">nikR</Data></Cell>
+    <Cell><Data ss:Type="String">Co&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">NikR-Co&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">12524532, 12970756, 16945905, 18193897, 19621966, 20583753</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033053</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR</Data></Cell>
+    <Cell><Data ss:Type="String">nrdR</Data></Cell>
+    <Cell><Data ss:Type="String">ATP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR-ATP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="Number">17496099</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033053</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR</Data></Cell>
+    <Cell><Data ss:Type="String">nrdR</Data></Cell>
+    <Cell><Data ss:Type="String">dATP</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR-dATP</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="Number">17496099</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033053</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR</Data></Cell>
+    <Cell><Data ss:Type="String">nrdR</Data></Cell>
+    <Cell><Data ss:Type="String">Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NrdR-Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="Number">17496099</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120016814</Data></Cell>
+    <Cell><Data ss:Type="String">NsrR</Data></Cell>
+    <Cell><Data ss:Type="String">nsrR</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S] reduced</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">NsrR-[2Fe-2S]reduced</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18989365</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120016814</Data></Cell>
+    <Cell><Data ss:Type="String">NsrR</Data></Cell>
+    <Cell><Data ss:Type="String">nsrR</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; oxidized</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">NsrR-[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; oxidized</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">18989365</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125134687</Data></Cell>
+    <Cell><Data ss:Type="String">NtrC</Data></Cell>
+    <Cell><Data ss:Type="String">glnG</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NtrC</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 16751184, 7641688, 7730282, 9367763, 9600853</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125134687</Data></Cell>
+    <Cell><Data ss:Type="String">NtrC</Data></Cell>
+    <Cell><Data ss:Type="String">glnG</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NtrC-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">15522865, 16751184, 7641688, 7730282, 9367763, 9600853</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125110257</Data></Cell>
+    <Cell><Data ss:Type="String">OmpR</Data></Cell>
+    <Cell><Data ss:Type="String">ompR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">OmpR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11812125, 15522865, 2160945, 2656704, 2668281, 7568033, 9016718, 9096305</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125110257</Data></Cell>
+    <Cell><Data ss:Type="String">OmpR</Data></Cell>
+    <Cell><Data ss:Type="String">ompR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">OmpR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11812125, 15522865, 2160945, 2656704, 2668281, 7568033, 9016718, 9096305</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012246</Data></Cell>
+    <Cell><Data ss:Type="String">PdhR</Data></Cell>
+    <Cell><Data ss:Type="String">pdhR</Data></Cell>
+    <Cell><Data ss:Type="String">Pyruvate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">PdhR-pyruvate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17513468, 7783622</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012246</Data></Cell>
+    <Cell><Data ss:Type="String">PdhR</Data></Cell>
+    <Cell><Data ss:Type="String">pdhR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">PdhR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">17513468, 7783622</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011306</Data></Cell>
+    <Cell><Data ss:Type="String">PhoB</Data></Cell>
+    <Cell><Data ss:Type="String">phoB</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">PhoB</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011306</Data></Cell>
+    <Cell><Data ss:Type="String">PhoB</Data></Cell>
+    <Cell><Data ss:Type="String">phoB</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">PhoB-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011492</Data></Cell>
+    <Cell><Data ss:Type="String">PhoP</Data></Cell>
+    <Cell><Data ss:Type="String">phoP</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">PhoP-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011492</Data></Cell>
+    <Cell><Data ss:Type="String">PhoP</Data></Cell>
+    <Cell><Data ss:Type="String">phoP</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">PhoP</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015234</Data></Cell>
+    <Cell><Data ss:Type="String">PrpR</Data></Cell>
+    <Cell><Data ss:Type="String">prpR</Data></Cell>
+    <Cell><Data ss:Type="String">2-methylcitrate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">PrpR-2-methylcitrate</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15528672</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120015234</Data></Cell>
+    <Cell><Data ss:Type="String">PrpR</Data></Cell>
+    <Cell><Data ss:Type="String">prpR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">PrpR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15528672</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012854</Data></Cell>
+    <Cell><Data ss:Type="String">PurR</Data></Cell>
+    <Cell><Data ss:Type="String">purR</Data></Cell>
+    <Cell><Data ss:Type="String">Hypoxanthine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">PurR-Hypoxanthine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1400170, 2089227, 2211500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012854</Data></Cell>
+    <Cell><Data ss:Type="String">PurR</Data></Cell>
+    <Cell><Data ss:Type="String">purR</Data></Cell>
+    <Cell><Data ss:Type="String">Guanine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">PurR-Guanine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1400170, 2089227, 2211500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012854</Data></Cell>
+    <Cell><Data ss:Type="String">PurR</Data></Cell>
+    <Cell><Data ss:Type="String">purR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">PurR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">1400170, 2089227, 2211500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012277</Data></Cell>
+    <Cell><Data ss:Type="String">QseB</Data></Cell>
+    <Cell><Data ss:Type="String">qseB</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">QseB-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">16803956</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012277</Data></Cell>
+    <Cell><Data ss:Type="String">QseB</Data></Cell>
+    <Cell><Data ss:Type="String">qseB</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">QseB</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">16803956</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013229</Data></Cell>
+    <Cell><Data ss:Type="String">RbsR</Data></Cell>
+    <Cell><Data ss:Type="String">rbsR</Data></Cell>
+    <Cell><Data ss:Type="String">D-ribose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">RbsR-D-ribose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1304369</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013229</Data></Cell>
+    <Cell><Data ss:Type="String">RbsR</Data></Cell>
+    <Cell><Data ss:Type="String">rbsR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">RbsR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">1304369</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033010</Data></Cell>
+    <Cell><Data ss:Type="String">RcnR</Data></Cell>
+    <Cell><Data ss:Type="String">rcnR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">RcnR-Ni &lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">16956381, 17120142, 18505253</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033010</Data></Cell>
+    <Cell><Data ss:Type="String">RcnR</Data></Cell>
+    <Cell><Data ss:Type="String">rcnR</Data></Cell>
+    <Cell><Data ss:Type="String">Co&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">RcnR-Co&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">16956381, 17120142, 18505253</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033010</Data></Cell>
+    <Cell><Data ss:Type="String">RcnR</Data></Cell>
+    <Cell><Data ss:Type="String">rcnR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">RcnR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">16956381, 17120142, 18505253</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012877</Data></Cell>
+    <Cell><Data ss:Type="String">RhaR</Data></Cell>
+    <Cell><Data ss:Type="String">rhaR</Data></Cell>
+    <Cell><Data ss:Type="String">L-rhamnose</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">RhaR-L-rhamnose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation]</Data></Cell>
+    <Cell><Data ss:Type="Number">18366439</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012337</Data></Cell>
+    <Cell><Data ss:Type="String">RhaS</Data></Cell>
+    <Cell><Data ss:Type="String">rhaS</Data></Cell>
+    <Cell><Data ss:Type="String">L-rhamnose</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">RhaS-L-rhamnose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation]</Data></Cell>
+    <Cell><Data ss:Type="Number">18366439</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033066</Data></Cell>
+    <Cell><Data ss:Type="String">RstA</Data></Cell>
+    <Cell><Data ss:Type="String">rstA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">RstA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033066</Data></Cell>
+    <Cell><Data ss:Type="String">RstA</Data></Cell>
+    <Cell><Data ss:Type="String">rstA</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">RstA-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033905</Data></Cell>
+    <Cell><Data ss:Type="String">RutR</Data></Cell>
+    <Cell><Data ss:Type="String">rutR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">RutR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">17919280</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033905</Data></Cell>
+    <Cell><Data ss:Type="String">RutR</Data></Cell>
+    <Cell><Data ss:Type="String">rutR</Data></Cell>
+    <Cell><Data ss:Type="String">Thymine</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">RutR-Thymine</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">17919280</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120033905</Data></Cell>
+    <Cell><Data ss:Type="String">RutR</Data></Cell>
+    <Cell><Data ss:Type="String">rutR</Data></Cell>
+    <Cell><Data ss:Type="String">Uracil</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">RutR-uracil</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="Number">17919280</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013242</Data></Cell>
+    <Cell><Data ss:Type="String">SoxR</Data></Cell>
+    <Cell><Data ss:Type="String">soxR</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; reduced</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">SoxR-[2Fe-2S]&lt;sup&gt;2+&lt;/sup&gt; reduced</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">7673113, 8816757, 9019397, 9030573</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013242</Data></Cell>
+    <Cell><Data ss:Type="String">SoxR</Data></Cell>
+    <Cell><Data ss:Type="String">soxR</Data></Cell>
+    <Cell><Data ss:Type="String">[2Fe-2S]&lt;sup&gt;3+&lt;/sup&gt; oxydized</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">SoxR-[2Fe-2S]&lt;sup&gt;3+&lt;/sup&gt; oxydized</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]</Data></Cell>
+    <Cell><Data ss:Type="String">7673113, 8816757, 9019397, 9030573</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012482</Data></Cell>
+    <Cell><Data ss:Type="String">TorR</Data></Cell>
+    <Cell><Data ss:Type="String">torR</Data></Cell>
+    <Cell><Data ss:Type="String">TorI</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">TorR-TorI</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012482</Data></Cell>
+    <Cell><Data ss:Type="String">TorR</Data></Cell>
+    <Cell><Data ss:Type="String">torR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">TorR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011406</Data></Cell>
+    <Cell><Data ss:Type="String">TreR</Data></Cell>
+    <Cell><Data ss:Type="String">treR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TreR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">19787122, 9148912, 9865945</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011406</Data></Cell>
+    <Cell><Data ss:Type="String">TreR</Data></Cell>
+    <Cell><Data ss:Type="String">treR</Data></Cell>
+    <Cell><Data ss:Type="String">Trehalose</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">TreR-Trehalose</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">19787122, 9148912, 9865945</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011406</Data></Cell>
+    <Cell><Data ss:Type="String">TreR</Data></Cell>
+    <Cell><Data ss:Type="String">treR</Data></Cell>
+    <Cell><Data ss:Type="String">Trehalose-6-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">TreR-trehalose-6-phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">19787122, 9148912, 9865945</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012176</Data></Cell>
+    <Cell><Data ss:Type="String">TrpR</Data></Cell>
+    <Cell><Data ss:Type="String">trpR</Data></Cell>
+    <Cell><Data ss:Type="String">Tryptophan</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">TrpR-Tryptophan</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="String">3519217, 7957174, 8433368</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012176</Data></Cell>
+    <Cell><Data ss:Type="String">TrpR</Data></Cell>
+    <Cell><Data ss:Type="String">trpR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TrpR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]</Data></Cell>
+    <Cell><Data ss:Type="String">3519217, 7957174, 8433368</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011194</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR</Data></Cell>
+    <Cell><Data ss:Type="String">tyrR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TyrR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11923293, 7961453</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011194</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR</Data></Cell>
+    <Cell><Data ss:Type="String">tyrR</Data></Cell>
+    <Cell><Data ss:Type="String">Phenylalanine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR-Phenylalanine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7961453</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011194</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR</Data></Cell>
+    <Cell><Data ss:Type="String">tyrR</Data></Cell>
+    <Cell><Data ss:Type="String">Tyrosine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR-Tyrosine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">11923293, 7961453</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120011194</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR</Data></Cell>
+    <Cell><Data ss:Type="String">tyrR</Data></Cell>
+    <Cell><Data ss:Type="String">Tryptophan</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">TyrR-L-tryptophan</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7961453</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048769</Data></Cell>
+    <Cell><Data ss:Type="String">UhpA</Data></Cell>
+    <Cell><Data ss:Type="String">uhpA</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">UhpA-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120048769</Data></Cell>
+    <Cell><Data ss:Type="String">UhpA</Data></Cell>
+    <Cell><Data ss:Type="String">uhpA</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UhpA</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">15522865</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012145</Data></Cell>
+    <Cell><Data ss:Type="String">UxuR</Data></Cell>
+    <Cell><Data ss:Type="String">uxuR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UxuR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]</Data></Cell>
+    <Cell><Data ss:Type="Number">6281232</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012145</Data></Cell>
+    <Cell><Data ss:Type="String">UxuR</Data></Cell>
+    <Cell><Data ss:Type="String">uxuR</Data></Cell>
+    <Cell><Data ss:Type="String">Fructuronate</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">UxuR-fructuronate</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]</Data></Cell>
+    <Cell><Data ss:Type="Number">6281232</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013780</Data></Cell>
+    <Cell><Data ss:Type="String">XapR</Data></Cell>
+    <Cell><Data ss:Type="String">xapR</Data></Cell>
+    <Cell><Data ss:Type="String">xanthosine</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">XapR-xanthosine</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10400599, 7559336</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013780</Data></Cell>
+    <Cell><Data ss:Type="String">XapR</Data></Cell>
+    <Cell><Data ss:Type="String">xapR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">XapR</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10400599, 7559336</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013786</Data></Cell>
+    <Cell><Data ss:Type="String">XylR</Data></Cell>
+    <Cell><Data ss:Type="String">xylR</Data></Cell>
+    <Cell><Data ss:Type="String">Xylose</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">XylR-Xylose</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7559336</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120013786</Data></Cell>
+    <Cell><Data ss:Type="String">XylR</Data></Cell>
+    <Cell><Data ss:Type="String">xylR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">XylR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="Number">7559336</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125134855</Data></Cell>
+    <Cell><Data ss:Type="String">YqjI</Data></Cell>
+    <Cell><Data ss:Type="String">yqjI</Data></Cell>
+    <Cell><Data ss:Type="String">Fe&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">YqjI-Fe&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">21097627</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125134855</Data></Cell>
+    <Cell><Data ss:Type="String">YqjI</Data></Cell>
+    <Cell><Data ss:Type="String">yqjI</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">YqjI</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">21097627</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK125134855</Data></Cell>
+    <Cell><Data ss:Type="String">YqjI</Data></Cell>
+    <Cell><Data ss:Type="String">yqjI</Data></Cell>
+    <Cell><Data ss:Type="String">Ni&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">negative</Data></Cell>
+    <Cell><Data ss:Type="String">YqjI-Ni&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">21097627</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034467</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR</Data></Cell>
+    <Cell><Data ss:Type="String">zntR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ZntR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034467</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR</Data></Cell>
+    <Cell><Data ss:Type="String">zntR</Data></Cell>
+    <Cell><Data ss:Type="String">Hg</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR-Hg</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034467</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR</Data></Cell>
+    <Cell><Data ss:Type="String">zntR</Data></Cell>
+    <Cell><Data ss:Type="String">Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR-Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120034467</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR</Data></Cell>
+    <Cell><Data ss:Type="String">zntR</Data></Cell>
+    <Cell><Data ss:Type="String">Cd&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ZntR-Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">12958362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120014103</Data></Cell>
+    <Cell><Data ss:Type="String">ZraR</Data></Cell>
+    <Cell><Data ss:Type="String">zraR</Data></Cell>
+    <Cell><Data ss:Type="String">Phosphate</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">ZraR-Phosphorylated</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Covalent</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">16005641</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120014103</Data></Cell>
+    <Cell><Data ss:Type="String">ZraR</Data></Cell>
+    <Cell><Data ss:Type="String">zraR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ZraR</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction]</Data></Cell>
+    <Cell><Data ss:Type="Number">16005641</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012020</Data></Cell>
+    <Cell><Data ss:Type="String">Zur</Data></Cell>
+    <Cell><Data ss:Type="String">zur</Data></Cell>
+    <Cell><Data ss:Type="String">Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">positive</Data></Cell>
+    <Cell><Data ss:Type="String">Zur-Zn&lt;sup&gt;2+&lt;/sup&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">Allosteric</Data></Cell>
+    <Cell><Data ss:Type="String">Holo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10816566, 11523983</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECK120012020</Data></Cell>
+    <Cell><Data ss:Type="String">Zur</Data></Cell>
+    <Cell><Data ss:Type="String">zur</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Zur</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apo</Data></Cell>
+    <Cell><Data ss:Type="String">[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]</Data></Cell>
+    <Cell><Data ss:Type="String">10816566, 11523983</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>10</ActiveCol>
+     <RangeSelection>R1C1:R1C11</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

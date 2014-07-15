@@ -1,0 +1,37 @@
+# Copies and Copyright-Notice
+#
+#      RegulonDB is free for academic/noncommercial use
+#
+#      User is not entitled to change or erase data sets of the RegulonDB
+#      database or to eliminate copyright notices from RegulonDB. Furthermore,
+#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly
+#      or as a whole into other databank systems, without prior written consent
+#      from CCG-UNAM.
+#
+#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp
+#
+# Citation
+#
+#      Salgado, H. et al. (2013). "RegulonDB v8.0: Omics data sets, evolutionary conservation,
+#      regulatory phrases, cross-validated gold standards and more".
+#      Nucleic Acids Research. 2013 Jan 1;41(D1):D203-D213. Epub 2012 Nov 29.
+#
+#
+# Contact
+#
+#      Person: RegulonDB Team
+#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp
+#          (regulondb@ccg.unam.mx)
+#
+#
+# Release: 8.6 Date: 4-11-2014
+# ___________________________________________________________________________
+# Columns:
+# (1) Promoter identifier assigned by RegulonDB
+# (2) Promoter Name
+# (3) DNA strand where the promoter is located
+# (4) Genome map position of Transcription Start Site (+1)
+# (5) Sigma Factor that recognize the promoter
+# (6) Promoter Sequence (+1 upper case)
+# (7) Evidence that supports the existence of the promoter
+ECK120010548	fecAp	reverse	4514750	Sigma19	tggataaacatttcaccactgtaaggaaaataattcttatttcgattgtcctttttacccTtctcgttcgactcatagctg	[TIM|S|Transcription initiation mapping],[HIPP|W|Human inference of promoter position],[CV(FP/TIM)|C|cross validation(FP/TIM)],[FP|S|Footprinting]
