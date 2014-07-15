@@ -29,21 +29,26 @@ def dataprocess(pattern, line, tag):
         metadata = line.split(',')
     else:
         metadata = line.split(';')
+    print str(metadata)
+    dic = {}
+    for i in xrange(len(pattern)):
+        if i<len(metadata):
+            dic[pattern[i]] = metadata[i]
+        else:
+            dic[pattern[i]] = ''
 
-    dic = dict((pattern[i], metadata[i]) for i in xrange(0, len(pattern)))
+    #dic = dict((pattern[i], metadata[i]) for i in xrange(0, len(pattern)))
     return dic
+
 
 def save_to_database(dic):
     node = Node()
     for key in dic.keys():
-        exec('node.%s = dic[%s]'%(key,key))
+        #di = dict((['node', node], ['key', key], ['dic', dic]))
+        exec 'node.%s = dic[key]' % key
         #exe  node.key = dic[key]
     node.save()
     print "saved successfully!"
-
-
-
-
 
 
 
@@ -59,22 +64,28 @@ def main():
 
     #walk the direction
     for path in paths:
+        print path
         fp = open(path)
         #one file
-        if fp and not re.match(r'DS_Store$', path):
+        if fp and re.search(r'.*txt$', path):
+            print 'file '+path+' opened'
             line = fp.readline()
-            if re.match(r'Gene_sequence\.csv', path):
+            print 'firstline: '+line
+
+            if re.search(r'Gene_sequence\.txt$', path):
                 pattern = line.split(',')
                 tag = 1
             else:
                 pattern = line.split(';')
                 tag = 2
 
+            print "pattern: "+str(pattern)
+
             while line:
                 line = fp.readline()
-                dic = dataprocess(pattern, line, tag)
-                save_to_database(dic)
-
+                if line:
+                    dic = dataprocess(pattern, line, tag)
+                    save_to_database(dic)
 
 if __name__ == '__main__':
     main()
