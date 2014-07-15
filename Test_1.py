@@ -2,8 +2,9 @@ __author__ = 'feiyicheng'
 
 from mongoengine import *
 import re
+import os
 
-
+'''
 class Operon(Document):
     Operon_name = StringField(max_length=100, required=True)
     First_gene_position_left = StringField(max_length=20)
@@ -13,37 +14,36 @@ class Operon(Document):
     Name_gene_contained = ListField(StringField(max_length=20))
     Evidence = StringField()
 
+class Node(DynamicDocument):
+    pass
+'''
 
-
-
-
-
-def dataprocess(pattern, line, repattern):
+def dataprocess(pattern, line, tag):
     '''split a line into a dict
         pattern is a list
         line is a string
         return a dic
     '''
-    metadata = re.split(r'\s', line)
-    annotation_match = re.search(repattern, line)
-    if annotation_match:
-        annotation = annotation_match.group(0)
+    if tag == 1:
+        metadata = line.split(',')
     else:
-        annotation = ''
-    dic = dict((pattern[i], metadata[i]) for i in xrange(0, 6))
-    dic[pattern[6]] = annotation
+        metadata = line.split(';')
+
+    dic = dict((pattern[i], metadata[i]) for i in xrange(0, len(pattern)))
     return dic
 
 def save_to_database(dic):
-    op = model.Operon()
-    op.Operon_name = dic['Operon_name']
-    op.First_gene_position_left = dic['First_gene_position_left']
-    op.Last_gene_position_right = dic['Last_gene_position_right']
-    op.Coded_strand = dic['Coded_strand']
-    op.Numberofgenes_contained = dic['Numberofgenes_contained']
-    op.Name_gene_contained= dic['Name_gene_contained'].split(',')
-    op.Evidence = dic['Evidence']
-    op.save()
+    node = Node()
+    {% for key in  %}
+    node.{{key}} = dic[key]
+    {% endfor %}
+
+    for key in dic.keys():
+        node.{{key}} = dic[key]
+    node.save()
+    print "saved successfully!"
+
+
 
 
 
@@ -51,25 +51,37 @@ def save_to_database(dic):
 
 def main():
     connect('igemdata')
-    fp = open('/Users/feiyicheng/Documents/igem/database/RegulonDB_in_xml_xlsx_format/Operons/OperonSet.txt')
-    #ziduanming
-    pattern = ['Operon_name', 'First_gene_position_left', 'Last_gene_position_right', 'Coded_strand', 'Numberofgenes_contained', 'Name_gene_contained', 'Evidence']
-    #zhengze
-    repattern = r'\s'
-    if fp:
-        line = fp.readline()
-        while line:
+    basepath = '/Users/feiyicheng/Documents/igem/数据库/ustc_igem_database/Database/Node/csv'
+
+    #save the paths of .cvs files
+    paths = []
+    for filelist in os.listdir(basepath):
+        filepath = os.path.join(basepath, filelist)
+        paths.append(filepath)
+
+    #walk the direction
+    for path in paths:
+        fp = open(path)
+        #one file
+        if fp:
             line = fp.readline()
-            if line:
-                if line[0] != '#':
-                    dic = dataprocess(pattern, line, repattern)
-                    for key in dic.keys():
-                        save_to_database(dic)
+            if re.compile(r'Gene_sequence.csv', path):
+                pattern = line.split(',')
+                tag = 1
+            else:
+                pattern = line.split(';')
+                tag = 2
+
+            while line:
+                line = fp.readline()
+                dic = dataprocess(pattern, line, tag)
+                save_to_database(dic)
+
+
+
 
 
 
 if __name__ == '__main__':
     main()
-    connect('igemdata')
-    model.Operon.objects()
 
