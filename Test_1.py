@@ -36,12 +36,13 @@ def dataprocess(pattern, line):
     return dic
 
 
-def save_to_database(dic):
+def save_to_database(dic, typ):
     #print str(dic)
     node = Node()
     for key in dic.keys():
         #print 'key: '+ key
         exec "node.%s = dic[key]" % key
+    node.type = typ
     node.save()
     #print "saved successfully!"
 
@@ -49,7 +50,7 @@ def save_to_database(dic):
 
 def main():
     connect('igemdata')
-    basepath = '/Users/feiyicheng/Documents/igem/igem_database/ustc_igem_database/Database/Node/csv'
+    basepath = './Database/Node/csv/txt'
 
     #save the paths of .cvs files
     paths = []
@@ -61,6 +62,9 @@ def main():
     tag = 0
     for path in paths:
         print path
+        typ = re.search(r'(?<=txt/).*?(?=\.txt)', path)
+        if typ:
+            typ = typ.group(0)
 
         #open file
         fp = open(path, 'rU')
@@ -78,17 +82,7 @@ def main():
             for i in xrange(len(pattern)):
                 replacere = re.compile(r"[ ,\"()+-?*]{1}|[\[]{1}|[]]{1}|[']{1}")
                 pattern[i] = replacere.sub('_', pattern[i])
-                '''pattern[i] = pattern[i].replace(' ', '_')
-                pattern[i] = pattern[i].replace(',', '_')
-                pattern[i] = pattern[i].replace('"', '_')
-                pattern[i] = pattern[i].replace('(', '_')
-                pattern[i] = pattern[i].replace(')', '_')
-                pattern[i] = pattern[i].replace('+', '_')
-                pattern[i] = pattern[i].replace('-', '_')
-                pattern[i] = pattern[i].replace('?', '_')
-                pattern[i] = pattern[i].replace("'", "_")
-                pattern[i] = pattern[i].replace('*', "_")
-                '''
+
             print "pattern:  "+str(pattern)+ '\n'+str(len(pattern))+'\n\n'
 
             while line:
@@ -97,8 +91,9 @@ def main():
 
                 if line:
                     dic = dataprocess(pattern, line)
-                    save_to_database(dic)
+                    save_to_database(dic, typ)
         tag = tag + 1
+
 
 if __name__ == '__main__':
     main()
