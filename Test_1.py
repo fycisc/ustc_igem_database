@@ -19,36 +19,31 @@ class Node(DynamicDocument):
     pass
 
 
-def dataprocess(pattern, line, tag):
+def dataprocess(pattern, line):
     '''split a line into a dict
         pattern is a list
         line is a string
         return a dic
     '''
-    if tag == 1:
-        metadata = line.split(',')
-    else:
-        metadata = line.split(';')
-    print str(metadata)
-    dic = {}
-    for i in xrange(len(pattern)):
-        if i<len(metadata):
-            dic[pattern[i]] = metadata[i]
-        else:
-            dic[pattern[i]] = ''
+    metadata = re.split(r'\t', line)
+    #print str(metadata)
+    #print len(metadata)
+    for i in xrange(len(metadata)):
+        if re.match(r'\s', metadata[i]):
+            metadata[i] = ''
 
-    #dic = dict((pattern[i], metadata[i]) for i in xrange(0, len(pattern)))
+    dic = dict((pattern[i], metadata[i]) for i in xrange(0, len(pattern)))
     return dic
 
 
 def save_to_database(dic):
+    #print str(dic)
     node = Node()
     for key in dic.keys():
-        #di = dict((['node', node], ['key', key], ['dic', dic]))
-        exec 'node.%s = dic[key]' % key
-        #exe  node.key = dic[key]
+        #print 'key: '+ key
+        exec "node.%s = dic[key]" % key
     node.save()
-    print "saved successfully!"
+    #print "saved successfully!"
 
 
 
@@ -63,29 +58,47 @@ def main():
         paths.append(filepath)
 
     #walk the direction
+    tag = 0
     for path in paths:
         print path
-        fp = open(path)
-        #one file
+
+        #open file
+        fp = open(path, 'rU')
+
+        #loop on line
         if fp and re.search(r'.*txt$', path):
             print 'file '+path+' opened'
+
+            #get pattern
             line = fp.readline()
-            print 'firstline: '+line
+            line = line.replace('\n', '')
+            #print 'firstline:  '+line+'\n\n'
 
-            if re.search(r'Gene_sequence\.txt$', path):
-                pattern = line.split(',')
-                tag = 1
-            else:
-                pattern = line.split(';')
-                tag = 2
-
-            print "pattern: "+str(pattern)
+            pattern = re.split(r'\t+', line)
+            for i in xrange(len(pattern)):
+                replacere = re.compile(r"[ ,\"()+-?*]{1}|[\[]{1}|[]]{1}|[']{1}")
+                pattern[i] = replacere.sub('_', pattern[i])
+                '''pattern[i] = pattern[i].replace(' ', '_')
+                pattern[i] = pattern[i].replace(',', '_')
+                pattern[i] = pattern[i].replace('"', '_')
+                pattern[i] = pattern[i].replace('(', '_')
+                pattern[i] = pattern[i].replace(')', '_')
+                pattern[i] = pattern[i].replace('+', '_')
+                pattern[i] = pattern[i].replace('-', '_')
+                pattern[i] = pattern[i].replace('?', '_')
+                pattern[i] = pattern[i].replace("'", "_")
+                pattern[i] = pattern[i].replace('*', "_")
+                '''
+            print "pattern:  "+str(pattern)+ '\n'+str(len(pattern))+'\n\n'
 
             while line:
                 line = fp.readline()
+                line = line.replace('\n', '')
+
                 if line:
-                    dic = dataprocess(pattern, line, tag)
+                    dic = dataprocess(pattern, line)
                     save_to_database(dic)
+        tag = tag + 1
 
 if __name__ == '__main__':
     main()
